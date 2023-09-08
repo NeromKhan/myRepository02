@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/SDET/JAVA/workspace_intellij/classPractice_22testNg">
+        <classes>
+            <class name="tests.CustomerInvalid_Password_Verification">
+                <methods>
+                    <include name="customerInvalid_Password_Verification"/>
+                </methods>
+            </class>
+            <class name="tests.CustomerOrderFunctionality">
+                <methods>
+                    <include name="customerOrderFunctionality"/>
+                </methods>
+            </class>
+            <class name="tests.EmployeeInvalid_UserId_Verification">
+                <methods>
+                    <include name="employeeInvalid_UserId_Verification"/>
+                </methods>
+            </class>
+            <class name="tests.Employee_OrderFunctionality">
+                <methods>
+                    <include name="Employee_OrderFunctionality"/>
+                </methods>
+            </class>
+            <class name="tests.Verify_CustomerIdAppearsinHomePage">
+                <methods>
+                    <include name="verifyMySecondTest"/>
+                </methods>
+            </class>
+            <class name="tests.Verify_CustomerLoginFunctionality">
+                <methods>
+                    <include name="verifyCustomerLoginFunctionality"/>
+                </methods>
+            </class>
+            <class name="tests.Verify_EmployeeApplyLeave">
+                <methods>
+                    <include name="verify_EmployeeApplyLeave"/>
+                </methods>
+            </class>
+            <class name="tests.Verify_EmployeeLoginFunctionality">
+                <methods>
+                    <include name="verifyEmployeeLoginFunctionality"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
